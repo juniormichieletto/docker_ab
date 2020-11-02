@@ -29,3 +29,5 @@ Note that we dont neeed type "ab" since this is in dockerImage entrypoint.
 ## Important tip
 
 If your are using to test against other local docker container running locally, make sure that both are in the same network.
+
+- Open to contributions
