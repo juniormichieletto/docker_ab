@@ -30,4 +30,10 @@ Note that we dont neeed type "ab" since this is in dockerImage entrypoint.
 
 If your are using to test against other local docker container running locally, make sure that both are in the same network.
 
+For docker for windows you can use the docker host instead 127.0.0.1 like:
+
+```bash
+    docker run --rm juniormichieletto/docker_ab -n 100 -c 10 http://host.docker.internal:8081/api/test
+```
+
 - Open to contributions
